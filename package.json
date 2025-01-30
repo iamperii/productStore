@@ -1,0 +1,31 @@
+{
+	"name": "productstore",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon backend/server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/iamperii/productStore.git"
+	},
+	"keywords": [],
+	"author": "Memmedova Peri",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/iamperii/productStore/issues"
+	},
+	"homepage": "https://github.com/iamperii/productStore#readme",
+	"description": "",
+	"devDependencies": {
+		"nodemon": "^3.0.0"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.7",
+		"express": "^4.21.2",
+		"mongoose": "^8.9.3"
+	}
+}
