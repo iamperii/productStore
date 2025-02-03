@@ -1,7 +1,7 @@
 .cards {
 	padding: 40px 50px;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(20%, 2fr));
 	gap: 40px;
 }
 .card {
@@ -12,14 +12,21 @@
 	border-radius: 10px;
 }
 .title {
+	margin-top: 40px;
 	padding-left: 50px;
-	text-align: center;
+	text-align: left;
 }
 .price {
 	color: rgba(0, 0, 255, 0.638);
 	font-weight: 600;
 }
-img{
+img {
 	align-self: center;
 	width: 200px;
+}
+.line {
+	background-color: rgba(0, 0, 255, 0.638);
+	width: 93%;
+	height: 2px;
+	margin-left: 50px;
 }

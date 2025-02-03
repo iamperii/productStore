@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import style from './Button.module.css';
-import { BASE_URL } from '../../../redux';
+import { BASE_URL } from '../../../redux/index';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchProducts } from '../../../redux/slices/getAllProducts';
 
@@ -30,7 +30,7 @@ const Button = (id) => {
 	return (
 		<>
 			<div className={style.cardBtns}>
-				<Link to="/edit">
+				<Link to={`edit/${productID}`}>
 					<button className={style.cardBtn}>Edit</button>
 				</Link>
 				<button className={style.cardBtn} onClick={deleteProduct}>

@@ -9,3 +9,57 @@ body {
 	height: 100vh;
 	font-family: 'Poppins';
 }
+:root {
+	--primary-background-color: #fff;
+	--secondary-background-color: #f7f7f7;
+
+	--primary-text-color: #000;
+	--secondary-text-color: #4b4c53;
+
+	--primary-border-color: #4b4c53;
+
+	--button-solid-background-color: #000;
+	--button-solid-text-color: #fff;
+
+	--button-outlined-background-color: transparent;
+	--button-outlined-text-color: #000;
+}
+[data-theme='dark'] {
+	--primary-background-color: #1f2028;
+	--secondary-background-color: #2e3039;
+
+	--primary-text-color: rgba(255, 255, 255, 0.87);
+	--secondary-text-color: #4b4c53;
+
+	--primary-border-color: #4b4c53;
+
+	--button-solid-background-color: #fff;
+	--button-solid-text-color: #000;
+
+	--button-outlined-background-color: transparent;
+	--button-outlined-text-color: #fff;
+}
+html,
+body,
+#root {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-size: 18px;
+	font-weight: 400;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+	#app {
+		padding: 0 1em;
+	}
+}

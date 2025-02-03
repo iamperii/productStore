@@ -14,6 +14,7 @@ const CardProduct = () => {
 	return (
 		<>
 			<h1 className={style.title}>ALL PRODUCTS 🚀</h1>
+			<div className={style.line}></div>
 			<div className={style.cards}>
 				{products?.map((product) => (
 					<div className={style.card} key={product._id}>
