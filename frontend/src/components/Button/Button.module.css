@@ -1,0 +1,35 @@
+.cardBtns {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	gap: 50px;
+	margin-top: 10px;
+	width: 100%;
+}
+.cardBtn {
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	padding: 10px 30px;
+	text-decoration: none;
+	border: none;
+	color: blue;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: white;
+	&:hover {
+		cursor: pointer;
+	}
+}
+a {
+	text-decoration: none;
+	color: blue;
+}
+.cardBtn:first-child:hover {
+	background-color: #7bac7b;
+	color: white;
+}
+.cardBtn:nth-child(2):hover {
+	background-color: red;
+	color: white;
+}

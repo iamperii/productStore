@@ -1,0 +1,25 @@
+.cards {
+	padding: 40px 50px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 40px;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	padding: 20px;
+	border-radius: 10px;
+}
+.title {
+	padding-left: 50px;
+	text-align: center;
+}
+.price {
+	color: rgba(0, 0, 255, 0.638);
+	font-weight: 600;
+}
+img{
+	align-self: center;
+	width: 200px;
+}
