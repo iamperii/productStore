@@ -34,3 +34,16 @@ This is a full-stack web application for managing a product store. The project i
 ```sh
 git clone <repository-url>
 cd product-store
+
+### Backend Setup
+npm install
+npm run dev
+
+### Frontend Setup
+cd frontend
+npm install
+npm start
+
+### License
+This project is licensed under the MIT License.
+
