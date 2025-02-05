@@ -35,7 +35,7 @@ This is a full-stack web application for managing a product store. The project i
 git clone <repository-url>
 cd product-store
 
-``` sh
+```
 ### Backend Setup
 npm install
 npm run dev
