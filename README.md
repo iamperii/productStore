@@ -9,7 +9,7 @@ This is a full-stack web application for managing a product store. The project i
 ### Frontend:
 - React
 - CSS/SCSS
-- Axios (for API requests)
+- Fetch (for API requests)
 
 ### Backend:
 - Node.js
