@@ -37,13 +37,17 @@ cd product-store
 
 ```
 ### Backend Setup
+```sh
 npm install
 npm run dev
+```
 
 ### Frontend Setup
+```sh
 cd frontend
 npm install
 npm start
+```
 
 ### License
 This project is licensed under the MIT License.
